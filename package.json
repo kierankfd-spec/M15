@@ -1,0 +1,15 @@
+{
+  "name": "m15-chatgpt-uploader",
+  "version": "0.1.0",
+  "description": "Uploader/downloader scripts to programmatically add and fetch files from the M15 repository using a GitHub PAT.",
+  "main": "uploader.js",
+  "scripts": {
+    "upload": "node uploader.js",
+    "download": "node downloader.js"
+  },
+  "author": "kierankfd-spec",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^19.0.7"
+  }
+}
